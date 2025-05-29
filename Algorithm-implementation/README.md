@@ -6,8 +6,6 @@ This repository includes various AI search algorithms categorized into:
 - **Chapter 4: Local Search Techniques**
 - **Chapter 5: Adversarial Search (Game Trees)**
 
-> ⚠️ **NOTE**: You should maintain this README file with explanations, updates, and examples.
-
 ---
 
 ## 📘 Chapter 3: Search Algorithms
