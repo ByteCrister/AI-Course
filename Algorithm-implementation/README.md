@@ -16,7 +16,9 @@ This repository includes various AI search algorithms categorized into:
 
 ---
 
-#### 1. Breadth-First Search (BFS)
+<details>
+<summary><strong>1. Breadth-First Search (BFS)</strong></summary>
+
 - **How it works**: Explores all neighbors at the current depth before going deeper. Uses a queue (FIFO).
 - **Applications**: Shortest path in unweighted graphs, Web crawling, Puzzle solving.
 - **Complexity**:
@@ -32,11 +34,16 @@ Enter an edge (u v), or type "done": 3 5
 Enter an edge (u v), or type "done": done
 Enter the starting node for BFS: 1
 BFS Traversal:
-1 2 3 4 5 
+1 2 3 4 5
 ```
+
+<details>
+
 ---
 
-#### 2. Depth-First Search (DFS)
+<details>
+<summary><strong>2. Depth-First Search (DFS)</strong></summary>
+
 - **How it works**: Explores as far as possible along each branch before backtracking. Uses a stack (LIFO).
 - **Applications**: Maze solving, Topological sorting.
 - **Complexity**:
@@ -54,9 +61,12 @@ Enter the starting node for DFS: 1
 DFS Traversal:
 1 2 4 3 5
 ```
+<details>
 ---
 
-#### 3. Depth-Limited Search
+<details>
+<summary><strong>3. Depth-Limited Search</strong></summary>
+
 - **How it works**: DFS with a depth limit to avoid infinite recursion.
 - **Applications**: Infinite depth trees/graphs.
 - **Complexity**:
@@ -82,9 +92,12 @@ Enter depth limit: 3
 Output:
 Goal J found! Path: A -> C -> F -> J
 ```
+<details>
 ---
 
-#### 4. Iterative Deepening Search
+<details>
+<summary><strong>4. Iterative Deepening Search</strong></summary>
+
 - **How it works**: Combines the space-efficiency of DFS and optimality of BFS by running DFS with increasing depth limits.
 - **Applications**: Memory-constrained systems, games.
 - **Complexity**:
@@ -93,7 +106,7 @@ Goal J found! Path: A -> C -> F -> J
 - **Example**:
 
 ```txt
-Input: 
+Input:
 
 Edge: A B
 Edge: A C
@@ -114,9 +127,12 @@ Visiting Node: K
 Found the target node: K
 Path to target: A -> C -> F -> K
 ```
+<details>
 ---
 
-#### 5. Bidirectional Search
+<details>
+<summary><strong>5. Bidirectional Search</strong></summary>
+
 - **How it works**: Simultaneously searches forward from start and backward from goal.
 - **Applications**: Shortest path in large state spaces.
 - **Complexity**:
@@ -125,7 +141,7 @@ Path to target: A -> C -> F -> K
 - **Example**:
 
 ```text
-Input: 
+Input:
 
 Enter edge (from to), or type 'done': 1 2
 Enter edge (from to), or type 'done': 1 3
@@ -151,17 +167,20 @@ Enter edge (from to), or type 'done': done
 Enter start node: 1
 Enter goal node: 9
 
-Output: 
+Output:
 Path from 1 to 9: 1 -> 3 -> 4 -> 5 -> 6 -> 7 -> 9
 Meeting Point: 4
 ```
+<details>
 ---
 
 ### 🔹 Informed Search
 
 ---
 
-#### 6. Best-First Search
+<details>
+<summary><strong>6. Best-First Search</strong></summary>
+
 - **How it works**: Uses a heuristic to expand the most promising node.
 - **Applications**: Robot navigation, web search.
 - **Complexity**:
@@ -170,7 +189,7 @@ Meeting Point: 4
 - **Example**:
 
 ```text
-Input: 
+Input:
 
 Edge: A B 11
 Edge: A D 7
@@ -199,9 +218,12 @@ Output:
 Optimal Path: A -> C -> F -> G
 Total Cost: 44
 ```
+<details>
 ---
 
-#### 7. A* Search
+<details>
+<summary><strong>7. A\* Search</strong></summary>
+
 - **How it works**: Uses both actual cost (g(n)) and heuristic (h(n)), f(n) = g(n) + h(n).
 - **Applications**: Pathfinding in maps, AI in games.
 - **Complexity**:
@@ -210,7 +232,7 @@ Total Cost: 44
 - **Example**:
 
 ```text
-Input: 
+Input:
 
 Enter node and heuristic (e.g., A 10), or type 'done': S 14
 Enter node and heuristic (e.g., A 10), or type 'done': B 12
@@ -233,7 +255,7 @@ Enter edge (from to cost), or type 'done': done
 Enter start node: S
 Enter goal node: G
 
-Output: 
+Output:
 Visiting: S (f=14)
 Visiting: C (f=14)
 Visiting: B (f=16)
@@ -244,9 +266,12 @@ Goal reached with cost: 17
 Path: S -> C -> D -> E -> G
 
 ```
+<details>
 ---
 
-#### 8. AO* Algorithm
+<details>
+<summary><strong>8. AO\* Algorithm</strong></summary>
+
 - **How it works**: Used for AND-OR graphs. Makes decisions considering both OR and AND branches.
 - **Applications**: Expert systems, problem solvers with decomposition.
 - **Complexity**:
@@ -255,7 +280,7 @@ Path: S -> C -> D -> E -> G
 - **Example**:
 
 ```text
-Input: 
+Input:
 
 Enter a node (format: name heuristic), or type 'done': A 999
 Enter a node (format: name heuristic), or type 'done': B 4
@@ -277,7 +302,7 @@ Enter edge group (format: parent groupType child1 child2...), or 'done': D OR J
 Enter edge group (format: parent groupType child1 child2...), or 'done': done
 Enter the root node to run AO*: A
 
-Output: 
+Output:
 Expanding: A
 Expanding: B
 Expanding: E
@@ -301,9 +326,12 @@ Solved: A with cost: 5
 
 Final heuristic value of root node 'A': 5
 ```
+<details>
 ---
 
-#### 9. Heuristic Search
+<details>
+<summary><strong>9. Heuristic Search</strong></summary>
+
 - **How it works**: General strategy using heuristic function to guide the search.
 - **Applications**: Any problem where estimation improves search speed.
 - **Complexity**:
@@ -338,13 +366,16 @@ Visited: E
 Visited: G
 Goal reached!
 ```
+<details>
 ---
 
 ## 📙 Chapter 4: Local Search
 
 ---
 
-### 10. Hill Climbing
+<details>
+<summary><strong>10. Hill Climbing</strong></summary>
+
 - **How it works**: Iteratively moves to the neighbor with highest value (greedy).
 - **Applications**: Optimization problems.
 - **Complexity**:
@@ -356,18 +387,21 @@ Goal reached!
 Enter initial value for hill climbing: 5
 Result: State{ value=10, heuristic=100 }
 ```
+<details>
 ---
 
-### 11. Beam Search
+<details>
+<summary><strong>11. Beam Search</strong></summary>
+
 - **How it works**: Keeps top-k best states at each level (like BFS with limited width).
 - **Applications**: Speech recognition, machine translation.
 - **Complexity**:
-- Time: O(k * b * d)
-- Space: O(k * d)
+- Time: O(k _ b _ d)
+- Space: O(k \* d)
 - **Example**:
 
 ```text
-Input: 
+Input:
 
 Edge: A B 11
 Edge: A D 7
@@ -394,17 +428,20 @@ Start node: A
 Goal node: G
 Beam width: 3
 
-Output: 
+Output:
 Goal Found: A -> C -> F -> G
 Total Cost: 44
 ```
+<details>
 ---
 
 ## 📗 Chapter 5: Adversarial Search
 
 ---
 
-### 12. Minimax Algorithm
+<details>
+<summary><strong>12. Minimax Algorithm</strong></summary>
+
 - **How it works**: Chooses optimal moves assuming opponent plays optimally.
 - **Applications**: Chess, Tic-Tac-Toe, game AI.
 - **Complexity**:
@@ -435,9 +472,12 @@ Enter root node label: A
 Output:
 The optimal value is: 4
 ```
+<details>
 ---
 
-### 13. Alpha-Beta Pruning
+<details>
+<summary><strong>13. Alpha-Beta Pruning</strong></summary>
+
 - **How it works**: Optimized minimax, prunes branches that won't affect result.
 - **Applications**: Efficient decision-making in games.
 - **Complexity**:
@@ -446,7 +486,7 @@ The optimal value is: 4
 - **Example**:
 
 ```text
-Input: 
+Input:
 
 A B
 A C
@@ -483,6 +523,7 @@ S 6
 done
 Enter root node label: A
 
-Output: 
+Output:
 Alpha-Beta Result: 6
 ```
+<details>
