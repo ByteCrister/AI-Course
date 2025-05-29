@@ -517,5 +517,4 @@ Enter root node label: A
 Output:
 Alpha-Beta Result: 6
 ```
-
 </details>
