@@ -35,7 +35,7 @@ BFS Traversal:
 1 2 3 4 5
 ```
 
-<details>
+</details>
 
 ---
 
@@ -59,8 +59,7 @@ Enter the starting node for DFS: 1
 DFS Traversal:
 1 2 4 3 5
 ```
-<details>
----
+</details>
 
 <details>
 <summary><strong>3. Depth-Limited Search</strong></summary>
@@ -90,8 +89,7 @@ Enter depth limit: 3
 Output:
 Goal J found! Path: A -> C -> F -> J
 ```
-<details>
----
+</details>
 
 <details>
 <summary><strong>4. Iterative Deepening Search</strong></summary>
@@ -125,8 +123,7 @@ Visiting Node: K
 Found the target node: K
 Path to target: A -> C -> F -> K
 ```
-<details>
----
+</details>
 
 <details>
 <summary><strong>5. Bidirectional Search</strong></summary>
@@ -169,8 +166,8 @@ Output:
 Path from 1 to 9: 1 -> 3 -> 4 -> 5 -> 6 -> 7 -> 9
 Meeting Point: 4
 ```
-<details>
----
+
+</details>
 
 ### 🔹 Informed Search
 
@@ -216,8 +213,8 @@ Output:
 Optimal Path: A -> C -> F -> G
 Total Cost: 44
 ```
-<details>
----
+
+</details>
 
 <details>
 <summary><strong>7. A\* Search</strong></summary>
@@ -264,8 +261,8 @@ Goal reached with cost: 17
 Path: S -> C -> D -> E -> G
 
 ```
-<details>
----
+
+</details>
 
 <details>
 <summary><strong>8. AO\* Algorithm</strong></summary>
@@ -324,8 +321,8 @@ Solved: A with cost: 5
 
 Final heuristic value of root node 'A': 5
 ```
-<details>
----
+
+</details>
 
 <details>
 <summary><strong>9. Heuristic Search</strong></summary>
@@ -364,8 +361,8 @@ Visited: E
 Visited: G
 Goal reached!
 ```
-<details>
----
+
+</details>
 
 ## 📙 Chapter 4: Local Search
 
@@ -385,8 +382,8 @@ Goal reached!
 Enter initial value for hill climbing: 5
 Result: State{ value=10, heuristic=100 }
 ```
-<details>
----
+
+</details>
 
 <details>
 <summary><strong>11. Beam Search</strong></summary>
@@ -430,8 +427,8 @@ Output:
 Goal Found: A -> C -> F -> G
 Total Cost: 44
 ```
-<details>
----
+
+</details>
 
 ## 📗 Chapter 5: Adversarial Search
 
@@ -470,8 +467,8 @@ Enter root node label: A
 Output:
 The optimal value is: 4
 ```
-<details>
----
+
+</details>
 
 <details>
 <summary><strong>13. Alpha-Beta Pruning</strong></summary>
@@ -524,4 +521,5 @@ Enter root node label: A
 Output:
 Alpha-Beta Result: 6
 ```
-<details>
+
+</details>
