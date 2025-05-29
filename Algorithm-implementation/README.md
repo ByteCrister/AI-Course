@@ -12,8 +12,6 @@ This repository includes various AI search algorithms categorized into:
 
 ### 🔹 Uninformed Search
 
----
-
 <details>
 <summary><strong>1. Breadth-First Search (BFS)</strong></summary>
 
@@ -36,8 +34,6 @@ BFS Traversal:
 ```
 
 </details>
-
----
 
 <details>
 <summary><strong>2. Depth-First Search (DFS)</strong></summary>
@@ -169,9 +165,9 @@ Meeting Point: 4
 
 </details>
 
-### 🔹 Informed Search
-
 ---
+
+### 🔹 Informed Search
 
 <details>
 <summary><strong>6. Best-First Search</strong></summary>
@@ -259,7 +255,6 @@ Visiting: E (f=16)
 Visiting: G (f=17)
 Goal reached with cost: 17
 Path: S -> C -> D -> E -> G
-
 ```
 
 </details>
@@ -364,9 +359,9 @@ Goal reached!
 
 </details>
 
-## 📙 Chapter 4: Local Search
-
 ---
+
+## 📙 Chapter 4: Local Search
 
 <details>
 <summary><strong>10. Hill Climbing</strong></summary>
@@ -430,9 +425,10 @@ Total Cost: 44
 
 </details>
 
+---
+
 ## 📗 Chapter 5: Adversarial Search
 
----
 
 <details>
 <summary><strong>12. Minimax Algorithm</strong></summary>
