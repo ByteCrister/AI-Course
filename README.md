@@ -13,7 +13,7 @@ The main goal of this course was to provide practical and theoretical knowledge 
 - Real-world applications of AI and its problem-solving abilities
 
 ### ⏳ Duration of the Course
-`February 2025 - May 2025`
+`January 2025 - June 2025`
 
 ### 👨‍🏫 Supervisor / Course Taken By
 **Mr. Razorshi Prozzal Talukdar**  
