@@ -16,9 +16,9 @@ The main goal of this course was to provide practical and theoretical knowledge 
 `February 2025 - May 2025`
 
 ### 👨‍🏫 Supervisor / Course Taken By
-**Dr. John Doe**  
+**Mr. Razorshi Prozzal Talukdar**  
 Department of Computer Science  
-XYZ University
+North East University Bangladesh
 
 ---
 
@@ -65,5 +65,3 @@ This folder contains:
 - Reference links or blogs followed
 
 ---
-
-> ✅ This README file is structured as per the project submission requirements.
