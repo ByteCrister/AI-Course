@@ -47,7 +47,7 @@ This folder contains two AI-generated resources for the **AI Tools Exploration**
 ## 📥 View & Download Resources
 
 - 🎥 [Watch the AI Course Video (Pictory)](https://drive.google.com/file/d/14PrMwIPTdAWxh_ELE0kx3CGbvwsMGY0d/view?usp=drive_link)
-- 📊 [View the AI Course Slides (Gamma)](https://docs.google.com/presentation/d/1Fg3q88AcUp-BvovXco52ohdtGiYU2K1j/edit?usp=sharing&ouid=105383669355188695909&rtpof=true&sd=true)
+- 📊 [View the AI Course Slides (Gamma)](https://gamma.app/docs/Welcome-to-the-World-of-Artificial-Intelligence-g6rqgi1ju8gysmp)
 
 ---
 
