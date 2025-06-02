@@ -16,7 +16,7 @@ The main goal of this course was to provide practical and theoretical knowledge 
 `January 2025 - June 2025`
 
 ### 👨‍🏫 Supervisor / Course Taken By
-**Mr. Razorshi Prozzawl Talukder**  
+**Mr. Razorshi Prozzwal Talukder**  
 Department of Computer Science  
 North East University Bangladesh
 
